@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <style>
+        h3{
+            color: firebrick;
+            font-size: 40px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            text-decoration: underline;
+        }
+        form{
+            background-color: lightpink;
+            color: white;
+            padding: 30px;
+            width: 550px;
+            border-radius: 20px;
+        }
+        h4{
+            text-align:center;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+        label{
+            padding: 20px;
+            font-size: 20px;
+        }
+        input,textarea,select{
+            padding: 10px;
+            border-radius: 15px;
+            width: 350px;
+            margin-left: 25px;
+            background-color: honeydew;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 15px;
+            margin-left: 350px;
+            background-color: honeydew;
+            border: none;
+        }
+        button:hover{
+            background-color: firebrick;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h3>SUGGESTION FORM</h3>
+<form action="">
+    <h4>ENTER YOUR SUGGESTIONS HERE</h4>
+    <label>NAME:</label><br>
+    <input type="text"><br><br>
+
+    <label>EMAIL:</label><br>
+    <input type="email"><br><br>
+
+    <label>PHONE NO.</label><br>
+    <input type="number"><br><br>
+
+    <label>CATEGORY:</label><br>
+    <select>
+        <option>EMPLOYEE</option>
+        <option>SUPPLIER</option>
+        <option>CLIENT</option>
+        <option>PARTNER</option>
+    </select><br><br>
+
+    <label>COMMENT:</label><br>
+    <textarea cols="30" rows="10"></textarea><br><br>
+    <button>SUBMIT</button>
+</form>
+</body>
+</html>

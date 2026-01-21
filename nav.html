@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin:0;
+            padding:0;
+            color: white;
+        }
+        nav{
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 20px 5px;
+        }
+        nav ul{
+           display:flex;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin-right: 70px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        a:hover{
+            background-color: pink;
+            color: darkslateblue;
+            font-style: italic;
+            padding: 5px 10px;
+            border-radius: 30px;
+        }
+        /*HERO SECTION*/
+        .hero-image{
+            background-image: url("human-skeleton-163715_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 800px;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        .hero-text{
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        p{
+            color: red;
+            font-size: 21px;
+            font-weight: bold;
+            margin:20px;
+            line-height: 3;
+        }
+        .content{
+            background-color: beige;
+        }
+        footer{
+            text-align: center;
+            padding: 10px;
+            background-color: brown;
+            color: black;
+            border-radius:10px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        iframe{
+            width: 2000px;
+            height: 600px;
+            border-radius:20px;
+            margin-left: 50px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">COURSES</a></li>
+        <li><a href="">CONTACTS</a></li>
+    </ul>
+</nav>
+<div class="hero-image">
+    <div class="hero-text">THE NAIROBI HOSPITAL</div>
+</div>
+<section class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolores doloribus et fugiat minima nesciunt recusandae sed similique velit voluptatibus?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloremque eos praesentium quod rerum ut vitae! Commodi deleniti eius ex.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus enim explicabo facere illum labore laboriosam laudantium molestias repudiandae sit, vel.</p>
+</section>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.4231481391434!2d36.798280148025164!3d-1.264760798857775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1741d28f6777%3A0xc89ebb559b0da912!2seMobilis%20Technology%20Training%20Institute!5e0!3m2!1sen!2ske!4v1768807855489!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="youtube">
+    <div class="you"><iframe width="560" height="315" src="https://www.youtube.com/embed/QJI0an6irrA?si=9MIhXf5DpNPMW28R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="you"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJkhLKlA2P8?si=dMmOflaXt4wbW9Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="you"><iframe width="560" height="315" src="https://www.youtube.com/embed/UknvioOAjN0?si=6pgF3758qCsg5I_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</div>
+<footer>
+    &copy The Nairobi Hospital. All rights reserved.
+</footer>
+</body>
+</html>
